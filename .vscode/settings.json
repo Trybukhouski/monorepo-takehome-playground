@@ -1,0 +1,15 @@
+{
+  // Указываем Prettier форматировщиком по умолчанию
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Включаем форматирование при сохранении
+  "editor.formatOnSave": true,
+
+  // Говорим ESLint автоматически исправлять всё, что он может исправить, при сохранении
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Настройки для стилей, если будешь использовать Tailwind
+  "tailwindCSS.emmetCompletions": true
+}
